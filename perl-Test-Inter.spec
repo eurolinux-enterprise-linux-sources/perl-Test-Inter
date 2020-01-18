@@ -1,6 +1,6 @@
 Name:           perl-Test-Inter
 Version:        1.05
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Framework for more readable interactive test scripts
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -45,6 +45,9 @@ perl Build.PL installdirs=vendor
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.05-2
+- Mass rebuild 2013-12-27
+
 * Thu Mar 21 2013 Petr Pisar <ppisar@redhat.com> - 1.05-1
 - 1.05 bump
 
